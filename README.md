@@ -5,4 +5,4 @@
 
 ## skills
 
-- typescript-best-practices
+- [typescript-best-practices](skills/typescript-best-practices/SKILL.md)
