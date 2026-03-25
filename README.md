@@ -6,3 +6,5 @@
 ## skills
 
 - [typescript-best-practices](skills/typescript-best-practices/SKILL.md)
+- [web-frontend-code-review](skills/frontend-code-review/SKILL.md)
+- [update-readme](skills/update-readme/SKILL.md)
