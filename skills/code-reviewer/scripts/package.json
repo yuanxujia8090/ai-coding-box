@@ -1,0 +1,22 @@
+{
+  "name": "code-reviewer-scripts",
+  "version": "2.0.0",
+  "description": "自动化代码审查脚本",
+  "type": "module",
+  "scripts": {
+    "check": "node index.js",
+    "check:security": "node check-security.js",
+    "check:deps": "node check-dependencies.js",
+    "check:bundle": "node analyze-bundle.js",
+    "diff": "node generate-diff.js",
+    "diff:cleanup": "node generate-diff.js --cleanup",
+    "review": "node auto-review.js"
+  },
+  "dependencies": {
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
